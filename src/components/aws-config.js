@@ -9,8 +9,8 @@ const App = () => {
     const fetchData = async () => {
       AWS.config.update({
         region: "us-west-2", // Replace with your AWS region (e.g., "us-east-1")
-        accessKeyId: "ASIA5CI45LZIDVRHG7JV", // Replace with your Access Key ID
-        secretAccessKey: "U9lDVqxe8fbcE6P9yB4+1trh055IernC8rfDrfDU", // Replace with your Secret Access Key
+        accessKeyId: "", // Replace with your Access Key ID
+        secretAccessKey: "", // Replace with your Secret Access Key
       });
 
       const dynamoDB = new AWS.DynamoDB.DocumentClient();
